@@ -2,7 +2,7 @@
   "expo": {
     "name": "Paris Masqué",
     "slug": "paris-masque",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -13,13 +13,18 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "bundleIdentifier": "com.zarcainc.parismasque",
       "supportsTablet": false,
       "infoPlist": {
-        "UIBackgroundModes": ["location", "fetch"],
-        "NSLocationWhenInUseUsageDescription": "Nous avons besoin d'avoir accès à votre position (même lorsque l'app n'est pas active) pour vous prévenir."
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ],
+        "NSLocationWhenInUseUsageDescription": "Paris Masqué vous protège."
       },
       "config": {
         "googleMapsApiKey": "AIzaSyBX9vQ8Vor-iw4ZZvrTR5STac1f0R9RsiQ"
@@ -27,8 +32,11 @@
     },
     "android": {
       "package": "com.zarcainc.parismasque",
-      "permissions": ["NOTIFICATIONS", "LOCATION"],
-      "versionCode": 2,
+      "permissions": [
+        "NOTIFICATIONS",
+        "LOCATION"
+      ],
+      "versionCode": 3,
       "config": {
         "googleMaps": {
           "apiKey": "AIzaSyBX9vQ8Vor-iw4ZZvrTR5STac1f0R9RsiQ"

@@ -17,7 +17,7 @@
     "expo-task-manager": "~8.3.0",
     "expo-updates": "~0.2.8",
     "fbemitter": "^2.1.1",
-    "lottie-react-native": "~2.6.1",
+    "lottie-react-native": "^3.5.0",
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-38.0.2.tar.gz",
