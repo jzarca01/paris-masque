@@ -2,7 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.3-blue.svg?cacheSeconds=2592000" />
   <a href="https://twitter.com/Jeremie__" target="_blank">
-    <img alt="Twitter: Jeremie___" src="https://img.shields.io/twitter/follow/Jeremie__.svg?style=social" />
+    <img alt="Twitter: Jeremie__" src="https://img.shields.io/twitter/follow/Jeremie__.svg?style=social" />
   </a>
 </p>
 
