@@ -13,6 +13,7 @@ const localNotification = {
 export const submitNotification = async () =>
   await Notifications.presentLocalNotificationAsync(localNotification);
 
+
 export const askNotification = async () => {
   const { status } = await Permissions.askAsync(Permissions.NOTIFICATIONS);
   if (Constants.isDevice && status === "granted")

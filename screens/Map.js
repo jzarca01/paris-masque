@@ -77,9 +77,11 @@ export default function App() {
     });
     AppState.addEventListener("change", setAppState);
     return () => {
+      (async () => {
       AppState.removeEventListener("change", setAppState);
       eventSubscription.remove();
-      Location.stopLocationUpdatesAsync(LOCATION_TASK_NAME);
+      await Location.stopLocationUpdatesAsync(LOCATION_TASK_NAME);
+      })();
     };
   }, []);
 
